@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecommerce product page</title>
+    <!-- custom sass link -->
+    <link rel="stylesheet" href="css\style.css" />
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/119f489d3b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="border">
+        <a href="#" class="logo">
+          <img src="images/logo.svg" alt="" />
+        </a>
+        <nav>
+          <a class="active" href="#">collections</a>
+          <a href="#">men</a>
+          <a href="#">women</a>
+          <a href="#">about</a>
+          <a href="#">contact</a>
+        </nav>
+        <div id="cart" class="fa-solid fa-cart-shopping">
+          <span id="cart-quantity">0</span>
+        </div>
+        <img class="man" src="images/image-avatar.png" alt="" />
+      </div>
+    </header>
+
+    <!-- product section  -->
+    <section class="product-section">
+      <div class="box-container">
+        <div class="box">
+          <img id="product" src="images/image-product-1.jpg" alt="" />
+          <div class="img-container">
+            <img
+              class="active"
+              src="images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img src="images/image-product-2-thumbnail.jpg" alt="" />
+            <img src="images/image-product-3-thumbnail.jpg" alt="" />
+            <img src="images/image-product-4-thumbnail.jpg" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <span>sneaker company</span>
+          <h1>
+            fall limited <br />
+            sneakers
+          </h1>
+          <p>
+            these low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer solem, they'll withstand everything
+            the weather offer.
+          </p>
+          <h3>$125.00 <span>50%</span></h3>
+          <h5>$250.00</h5>
+          <div class="cart">
+            <div class="number">
+              <i id="minus" class="fa-solid fa-minus"></i>
+              <span id="quantity">1</span>
+              <i id="plus" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="btn">
+              <i class="fa-solid fa-cart-shopping"></i>
+              add to cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- custom js  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
